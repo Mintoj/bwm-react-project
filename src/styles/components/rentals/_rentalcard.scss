@@ -1,0 +1,50 @@
+#rentalListing {
+    .title {
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+  
+    /* SINGLE CARD STYLES*/
+    .bwm-card {
+      border: none;
+  
+      .card-block {
+        padding-top: 8px;
+  
+        .card-subtitle {
+          margin: 0;
+          font-weight: 500;
+          font-size: 12px;
+          text-transform: uppercase;        
+        }
+  
+        .card-title {
+          font-size: 1.4rem;
+          margin: 3px 0;
+          font-weight: 600;
+          color: $main-text-grey-color;
+        }
+  
+        .card-text {
+          font-size: 14px;
+          font-weight: 400;
+          color: $main-color;
+          margin-bottom: 0;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  .condo{
+    color: #a72da3;
+  }
+
+  .house{
+    color: #bf1818
+  }
+
+  .apartment{
+    color: #d68000
+  }
